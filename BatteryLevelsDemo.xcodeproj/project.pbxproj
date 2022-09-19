@@ -11,6 +11,7 @@
 		1A36EE5F28D8B8C700372EE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A36EE5E28D8B8C700372EE1 /* ContentView.swift */; };
 		1A36EE6128D8B8C800372EE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A36EE6028D8B8C800372EE1 /* Assets.xcassets */; };
 		1A36EE6428D8B8C800372EE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A36EE6328D8B8C800372EE1 /* Preview Assets.xcassets */; };
+		1A36EE8F28D9186A00372EE1 /* BatteryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A36EE8E28D9186A00372EE1 /* BatteryViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1A36EE5E28D8B8C700372EE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1A36EE6028D8B8C800372EE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A36EE6328D8B8C800372EE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A36EE8E28D9186A00372EE1 /* BatteryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				1A36EE5C28D8B8C700372EE1 /* BatteryLevelsDemoApp.swift */,
 				1A36EE5E28D8B8C700372EE1 /* ContentView.swift */,
+				1A36EE8E28D9186A00372EE1 /* BatteryViewModel.swift */,
 				1A36EE6028D8B8C800372EE1 /* Assets.xcassets */,
 				1A36EE6228D8B8C800372EE1 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				1A36EE5F28D8B8C700372EE1 /* ContentView.swift in Sources */,
 				1A36EE5D28D8B8C700372EE1 /* BatteryLevelsDemoApp.swift in Sources */,
+				1A36EE8F28D9186A00372EE1 /* BatteryViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

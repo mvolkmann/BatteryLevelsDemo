@@ -1,19 +1,14 @@
-//
-//  ContentView.swift
-//  BatteryLevelsDemo
-//
-//  Created by Mark Volkmann on 9/19/22.
-//
-
 import SwiftUI
+import WidgetKit
 
 struct ContentView: View {
+    @StateObject private var batteryVM = BatteryViewModel()
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Battery Level").font(.largeTitle)
+            Text("charge is \(batteryVM.level)%")
+            Text("state is \(batteryVM.description)")
         }
         .padding()
     }
