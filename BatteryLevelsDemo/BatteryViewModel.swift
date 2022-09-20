@@ -6,6 +6,12 @@ import SwiftUI
  https://stackoverflow.com/questions/53154389/determine-apple-watch-battery-level-from-paired-iphone.
  and
  https://medium.com/@gohnjanotis/apple-watch-battery-level-charging-notifications-eb7d0797a4d8
+
+ You can get notifications on iPhone when watch is fully charged.
+ To enable this, launch the Watch app on the iPhone,
+ select "Sleep", and enable "Charging Reminders".
+ It may also be necessary to enable sleep tracking in the Health app.
+ How can a SwiftUI app listen for these notifications?
  */
 class BatteryViewModel: ObservableObject {
     @Published var level = 0
